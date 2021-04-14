@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="396.0" prefWidth="327.0" stylesheets="@../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.editMember.editMemberController">
+    <children>
+        <JFXTextField fx:id="name" labelFloat="true" layoutX="29.0" layoutY="39.0" prefHeight="30.0" prefWidth="270.0" promptText="Member Name" />
+        <JFXTextField fx:id="memberID" labelFloat="true" layoutX="29.0" layoutY="114.0" prefHeight="30.0" prefWidth="270.0" promptText="Member ID" />
+        <JFXTextField fx:id="mobile" labelFloat="true" layoutX="29.0" layoutY="191.0" prefHeight="30.0" prefWidth="270.0" promptText="Member Mobile" />
+        <JFXTextField fx:id="email" labelFloat="true" layoutX="29.0" layoutY="265.0" prefHeight="30.0" prefWidth="270.0" promptText="Member Email" />
+        <JFXButton layoutX="39.0" layoutY="331.0" onAction="#editMember" prefHeight="39.0" prefWidth="109.0" text="Save" />
+        <JFXButton layoutX="182.0" layoutY="331.0" onAction="#cancel" prefHeight="39.0" prefWidth="109.0" text="Cancel" />
+    </children>
+</AnchorPane>

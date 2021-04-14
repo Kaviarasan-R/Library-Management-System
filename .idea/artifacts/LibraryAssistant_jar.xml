@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LibraryAssistant:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LibraryAssistant_jar</output-path>
+    <root id="archive" name="LibraryAssistant.jar">
+      <element id="module-output" name="LibraryAssistant" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/fontawesomefx-commons-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/fontawesomefx-controls-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/fontawesomefx-fontawesome-4.7.0-5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/jfoenix-9.0.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/commons-codec-1.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/gson-2.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Program Files/Java/javafx-sdk-15.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/Applications/IntelliJ JARS/sqlite-jdbc-3.32.3.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

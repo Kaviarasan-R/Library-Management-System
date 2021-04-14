@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="304.0" prefWidth="244.0" stylesheets="@../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.about.aboutController">
+   <children>
+      <Label alignment="CENTER" prefHeight="65.0" prefWidth="304.0" style="-fx-background-color: #d32f2f; -fx-text-fill: white;" text="About">
+         <font>
+            <Font name="Consolas" size="40.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="aboutText" editable="false" layoutX="22.0" layoutY="81.0" prefHeight="201.0" prefWidth="263.0">
+         <font>
+            <Font name="Lucida Console" size="14.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

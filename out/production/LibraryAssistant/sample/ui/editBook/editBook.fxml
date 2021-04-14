@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="396.0" prefWidth="327.0" stylesheets="@../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.editBook.editBookController">
+    <children>
+        <JFXTextField fx:id="title" labelFloat="true" layoutX="29.0" layoutY="39.0" prefHeight="30.0" prefWidth="270.0" promptText="Book Title" />
+        <JFXTextField fx:id="id" labelFloat="true" layoutX="29.0" layoutY="114.0" prefHeight="30.0" prefWidth="270.0" promptText="Book ID" />
+        <JFXTextField fx:id="author" labelFloat="true" layoutX="29.0" layoutY="191.0" prefHeight="30.0" prefWidth="270.0" promptText="Book Author" />
+        <JFXTextField fx:id="publisher" labelFloat="true" layoutX="29.0" layoutY="265.0" prefHeight="30.0" prefWidth="270.0" promptText="Publisher" />
+        <JFXButton layoutX="42.0" layoutY="331.0" onAction="#editbook" prefHeight="39.0" prefWidth="109.0" text="Save" />
+        <JFXButton layoutX="182.0" layoutY="331.0" onAction="#cancel" prefHeight="39.0" prefWidth="109.0" text="Cancel" />
+    </children>
+</AnchorPane>

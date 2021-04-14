@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="150.0" stylesheets="@../../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.main.toolbar.toolbarController">
+   <children>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#loadMember" prefHeight="350.0" prefWidth="150.0" styleClass="toolbar-button" text="Add Member">
+         <graphic>
+            <FontAwesomeIconView glyphName="USER_PLUS" size="25" wrappingWidth="15.571428298950195" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadBook" prefHeight="350.0" prefWidth="150.0" styleClass="toolbar-button" text="Add Book">
+         <graphic>
+            <FontAwesomeIconView glyphName="BOOK" size="25" wrappingWidth="15.571428298950195" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadMemberList" prefHeight="350.0" prefWidth="150.0" styleClass="toolbar-button" text="View Memebr">
+         <graphic>
+            <FontAwesomeIconView glyphName="LIST_UL" size="25" wrappingWidth="15.571428298950195" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadBookList" prefHeight="350.0" prefWidth="150.0" styleClass="toolbar-button" text="View Book">
+         <graphic>
+            <FontAwesomeIconView glyphName="TH_LARGE" size="25" wrappingWidth="15.571428298950195" />
+         </graphic>
+      </JFXButton>
+      <JFXButton alignment="CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#loadSettings" prefHeight="350.0" prefWidth="150.0" styleClass="toolbar-button" text="Settings">
+         <graphic>
+            <FontAwesomeIconView glyphName="DATABASE" size="25" wrappingWidth="15.571428298950195" />
+         </graphic>
+      </JFXButton>
+   </children>
+</VBox>

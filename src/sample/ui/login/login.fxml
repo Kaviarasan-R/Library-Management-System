@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="323.0" prefWidth="364.0" stylesheets="@../../../resources/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ui.login.loginController">
+   <children>
+      <JFXTextField fx:id="loginUsername" labelFloat="true" layoutX="61.0" layoutY="85.0" onAction="#loadLogin" prefHeight="37.0" prefWidth="254.0" promptText="Username" />
+      <JFXPasswordField fx:id="loginPassword" labelFloat="true" layoutX="61.0" layoutY="169.0" onAction="#loadLogin" prefHeight="37.0" prefWidth="254.0" promptText="Password" />
+      <JFXButton layoutX="61.0" layoutY="248.0" onAction="#loadLogin" prefHeight="39.0" prefWidth="91.0" text="Login" />
+      <JFXButton layoutX="229.0" layoutY="248.0" onAction="#loadCancel2" prefHeight="39.0" prefWidth="91.0" text="Cancel" />
+      <JFXButton layoutX="233.0" layoutY="31.0" onAction="#loadSign" prefHeight="20.0" prefWidth="82.0" text="Sign Up" />
+      <FontAwesomeIconView glyphName="LOCK" layoutX="169.0" layoutY="64.0" size="40" />
+      <FontAwesomeIconView glyphName="USER_CIRCLE" layoutX="24.0" layoutY="112.0" size="25" />
+      <FontAwesomeIconView glyphName="KEY" layoutX="24.0" layoutY="201.0" size="25" />
+   </children>
+</AnchorPane>
